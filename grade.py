@@ -13,3 +13,7 @@ else:
         print("Invalid marks entered. Please enter a number between 0 and 100.")    
     else:
         print("Your grade is F. Better luck next time!")
+if num<0 or num>100:
+    print("Invalid marks entered. Please enter a number between 0 and 100.")
+else:
+    print("Your grade is F. Better luck next time!")    
